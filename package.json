@@ -1,0 +1,12 @@
+{
+  "name": "shields-process-service",
+  "version": "1.0.0",
+  "description": "I am making a business page for a friend that I can add to my portfolio. He is a process server\r and would like to start offering PI services as well, eventually.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
