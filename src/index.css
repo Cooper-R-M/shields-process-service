@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.c-black {
+    background-color: #0d1321;
+}
+.c-navy {
+    background-color: #05204a;
+}
+.c-blue {
+    background-color: #628395;
+}
+.c-yellow {
+    background-color: #F5Cc00;
+}
