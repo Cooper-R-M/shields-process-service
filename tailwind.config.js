@@ -7,7 +7,10 @@ module.exports = {
         yellow: '#F5Cc00',
         black: '#0D1321',
         navy: '#05204A',
-        blue: '#628395',
+        grey: '#628395',
+      },
+      rotate: {
+        rotate: 'transform(90deg)',
       }
     },
   },
