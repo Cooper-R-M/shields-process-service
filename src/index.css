@@ -14,3 +14,10 @@
 .c-yellow {
     background-color: #F5Cc00;
 }
+
+.static-logo {
+    position: fixed;
+    transform: rotate(270deg);
+    top: 80vh;
+    left: -110px
+}
