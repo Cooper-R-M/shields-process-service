@@ -24,35 +24,86 @@
   </div>
 
 
-  <div class="static-logo h-20 flex">
-    <h2 class="text-3xl text-yellow self-center">Shields Process Service</h2>
+  <div class="grid grid-cols-9">
+
+    <div class="static-logo h-20 flex col-span-1 col-start-1">
+      <h2 class="text-3xl text-yellow self-center">Shields Process Service</h2>
+    </div>
+
+    <div class="bg-grey text-black pl-[6rem] col-start-2 col-span-8">
+      <div class="max-w-4xl mx-auto my-8 p-4">
+        <!-- Accordion Item 1 -->
+        <div class="border-b border-gray-300">
+          <button class="accordion-header w-full text-left py-2 px-4 bg-gray-300 text-black font-bold focus:outline-none">
+            Process Service
+          </button>
+          <div class="accordion-content p-4">
+            <p>Now, look here, my good man. Oh, ow! Look, my liege! Oh, ow! Where'd you get the coconuts? She looks like one. I'm not a witch. Listen. Strange women lying in ponds distributing swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.</p>
+          </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="border-b border-gray-300">
+          <button class="accordion-header w-full text-left py-2 px-4 bg-gray-300 text-black font-bold focus:outline-none">
+            About Us
+          </button>
+          <div class="accordion-content p-4">
+            <p>Well, how'd you become king, then? Well, how'd you become king, then? What do you mean? You don't vote for kings. Well, we did do the nose. Well, I didn't vote for you. Camelot! Well, I didn't vote for you. Camelot! Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.</p>
+          </div>
+        </div>
+
+        <!-- Accordion Item 3 -->
+        <div class="border-b border-gray-300">
+          <button class="accordion-header w-full text-left py-2 px-4 bg-gray-300 text-black font-bold focus:outline-none">
+            Services
+          </button>
+          <div class="accordion-content p-4">
+            <p>Why do you think that she is a witch? I have to push the pram a lot. I have to push the pram a lot. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Container for centering the grid layout -->
+
+      <div class="centered-container mr-3 mb-3">
+        <div style="background-color: #F3F2EF; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px #0D1321; border: 1px solid navy ; max-width: 40rem; width: 100%;">
+          <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; @media (min-width: 768px) { grid-template-columns: 1fr 1fr; }">
+            <!-- Contact Form -->
+            <div style="background-color: #F3F2EF; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px #0D1321; border: 1px solid #F3F2EF;">
+              <h2 style="font-size: 1.5rem; font-weight: 600; margin-bottom: 1rem;">Contact Us</h2>
+              <form action="#" method="POST">
+                <div style="margin-bottom: 1rem;">
+                  <label for="name" style="display: block; font-size: 0.875rem; font-weight: 500; color: #628395;">Name</label>
+                  <input type="text" id="name" name="name" style="margin-top: 0.25rem; display: block; width: 100%; padding: 0.5rem; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 1px 3px #0D1321; outline: none; focus:ring: 2px solid #345270; focus:border: 2px solid #05204A;" required>
+                </div>
+                <div style="margin-bottom: 1rem;">
+                  <label for="email" style="display: block; font-size: 0.875rem; font-weight: 500; color: #628395;">Email</label>
+                  <input type="email" id="email" name="email" style="margin-top: 0.25rem; display: block; width: 100%; padding: 0.5rem; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 1px 3px #0D1321; outline: none; focus:ring: 2px solid #345270; focus:border: 2px solid #345270;" required>
+                </div>
+                <div style="margin-bottom: 1rem;">
+                  <label for="message" style="display: block; font-size: 0.875rem; font-weight: 500; color: #4a5568;">Message</label>
+                  <textarea id="message" name="message" rows="4" style="margin-top: 0.25rem; display: block; width: 100%; padding: 0.5rem; border: 1px solid #e2e8f0; border-radius: 0.375rem; box-shadow: 0 1px 3px #0D1321; outline: none; focus:ring: 2px solid #4f46e5; focus:border: 2px solid #4f46e5;" required></textarea>
+                </div>
+                <button type="submit" style="width: 100%; background-color: #4f46e5; color: white; padding: 0.5rem; border-radius: 0.375rem; border: none; cursor: pointer; font-size: 1rem; font-weight: 600; transition: background-color 0.2s ease-in-out;" onmouseover="this.style.backgroundColor='#4338ca';" onmouseout="this.style.backgroundColor='#4f46e5';">
+                  Send Message
+                </button>
+              </form>
+            </div>
+
+            <!-- Google Maps -->
+            <div style="background-color: #F3F2EF; padding: 1.5rem; border-radius: 0.5rem; box-shadow: 0 1px 3px #0D1321; border: 1px solid #F3F2EF; container: inherit">
+              <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.1216719143326!2d-122.4218380846812!3d37.77492927975975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808e7f06d8e3%3A0x9d9b1ef1df84c68a!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1628627668071!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="grid grid-cols-5">
-    <div class="">
-<!--      <div></div>-->
-    </div>
-    <div class="bg-grey text-black pl-[6rem] col-span-4">
-      <div>
-        <h2 class="font-bold">Process Service</h2>
-        <p>Now, look here, my good man. Oh, ow! Look, my liege! Oh, ow! Where'd you get the coconuts? She looks like one. I'm not a witch. Listen. Strange women lying in ponds distributing swords is no basis for a system of government. Supreme executive power derives from a mandate from the masses, not from some farcical aquatic ceremony.</p>
-      </div>
-      <div>
-        <h2 class="font-bold">About Us</h2>
-        <p>Well, how'd you become king, then? Well, how'd you become king, then? What do you mean? You don't vote for kings. Well, we did do the nose. Well, I didn't vote for you. Camelot! Well, I didn't vote for you. Camelot! Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.</p>
-      </div>
-      <div>
-        <h2 class="font-bold">Services</h2>
-        <p>Why do you think that she is a witch? I have to push the pram a lot. I have to push the pram a lot. I don't want to talk to you no more, you empty-headed animal food trough water! I fart in your general direction! Your mother was a hamster and your father smelt of elderberries! Now leave before I am forced to taunt you a second time!</p>
-      </div>
-      <div class="grid grid-cols-1">
-        <h2 class="font-bold">Contact Us</h2>
-        <label>Name</label>
-        <label>Phone number</label>
-        <textarea>How can we help?</textarea>
-      </div>
-    </div>
-  </div>
+
+
   <script type="module" src="/src/main.js"></script>
   </body>
 </html>

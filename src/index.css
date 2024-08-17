@@ -2,22 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.c-black {
-    background-color: #0d1321;
-}
-.c-navy {
-    background-color: #05204a;
-}
-.c-blue {
-    background-color: #628395;
-}
-.c-yellow {
-    background-color: #F5Cc00;
-}
-
 .static-logo {
     position: fixed;
     transform: rotate(270deg);
     top: 70vh;
-    left: -6%;
+    left: -30px;
+}
+
+.accordion-content {
+    display: none;
+}
+.accordion-content.open {
+    display: block;
 }
