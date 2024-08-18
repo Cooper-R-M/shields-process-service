@@ -14,6 +14,7 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "@designbycode/tailwindcss-text-stroke": "^1.2.1",
     "autoprefixer": "^10.4.19",
     "flowbite": "^2.3.0",
     "postcss": "^8.4.38"

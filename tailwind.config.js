@@ -19,6 +19,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require('@designbycode/tailwindcss-text-stroke')
   ],
 }
