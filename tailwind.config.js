@@ -19,6 +19,7 @@ module.exports = {
         white: '#F3F2EF',
         brown2: '#B04A10',
         brown3: '#D9631F',
+        pink2: '#B28089',
       },
       rotate: {
         rotate: 'transform(90deg)',
