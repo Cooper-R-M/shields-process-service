@@ -2,6 +2,10 @@
 module.exports = {
   content: ['index.html', './src/**/*.{js,css}',  "./node_modules/flowbite/**/*.js"],
   theme: {
+    // screens: {
+    //   'laptop': '1024px',
+    //   // => @media (min-width: 1024px)
+    // },
     extend: {
       fontFamily: {
         ["roboto slab"]:
