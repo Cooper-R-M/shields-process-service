@@ -214,7 +214,7 @@ jobs:
       - name: Deploy to server
         run: |
          ssh-keyscan -H shieldsprocess.services >> ~/.ssh/known_hosts 
-         scp -r ./dist/* gkephart@shieldsprocess.services:/var/www/shieldsprocess.services/html
+         scp -r ./dist/* lmcgaffey@shieldsprocess.services:/var/www/shieldsprocess.services/html
 ```
 - Push your changes to github to trigger the action and test deploying your site
 
